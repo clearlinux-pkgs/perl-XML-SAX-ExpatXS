@@ -4,7 +4,7 @@
 #
 Name     : perl-XML-SAX-ExpatXS
 Version  : 1.33
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/P/PC/PCIMPRICH/XML-SAX-ExpatXS-1.33.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PC/PCIMPRICH/XML-SAX-ExpatXS-1.33.tar.gz
 Summary  : Perl SAX 2 XS extension to Expat parser

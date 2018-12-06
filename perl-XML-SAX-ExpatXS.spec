@@ -79,26 +79,26 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS.pm
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encoding.pm
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/big5.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/euc-kr.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-2.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-3.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-4.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-5.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-7.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-8.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-9.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1250.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1252.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-jisx0221.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-unicode.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-cp932.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jdk117.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jisx0221.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-unicode.enc
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/XML/SAX/ExpatXS/Preload.pm
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS.pm
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encoding.pm
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/big5.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/euc-kr.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-2.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-3.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-4.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-5.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-7.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-8.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-9.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1250.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1252.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-jisx0221.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-unicode.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-cp932.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jdk117.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jisx0221.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-unicode.enc
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Preload.pm
 
 %files dev
 %defattr(-,root,root,-)
@@ -108,4 +108,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1x86_64-linux-thread-multi/auto/XML/SAX/ExpatXS/ExpatXS.so
+/usr/lib/perl5/vendor_perl/5.28.1/x86_64-linux-thread-multi/auto/XML/SAX/ExpatXS/ExpatXS.so

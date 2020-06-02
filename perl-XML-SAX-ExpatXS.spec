@@ -4,7 +4,7 @@
 #
 Name     : perl-XML-SAX-ExpatXS
 Version  : 1.33
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/P/PC/PCIMPRICH/XML-SAX-ExpatXS-1.33.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PC/PCIMPRICH/XML-SAX-ExpatXS-1.33.tar.gz
 Summary  : Perl SAX 2 XS extension to Expat parser
@@ -90,24 +90,24 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS.pm
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encoding.pm
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/big5.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/euc-kr.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-2.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-3.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-4.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-5.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-7.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-8.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-9.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1250.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1252.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-jisx0221.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-unicode.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-cp932.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jdk117.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jisx0221.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-unicode.enc
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Preload.pm
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/XML/SAX/ExpatXS/ExpatXS.so
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS.pm
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encoding.pm
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/big5.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/euc-kr.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-2.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-3.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-4.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-5.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-7.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-8.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/iso-8859-9.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1250.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/windows-1252.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-jisx0221.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-euc-jp-unicode.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-cp932.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jdk117.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-jisx0221.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Encodings/x-sjis-unicode.enc
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/XML/SAX/ExpatXS/Preload.pm
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/XML/SAX/ExpatXS/ExpatXS.so
